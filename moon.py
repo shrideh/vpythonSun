@@ -7,6 +7,7 @@ b = 3.5
 ball = sphere(radius=0.2, color=color.blue, pos=vector(-a,0,0),make_trail=True)
 ball2 = sphere(radius=0.08, color=color.yellow, pos=vector(-a,0,0))
 sun = sphere(radius=0.37,pos=vector((a**2-b**2)**0.5, 0, 0), color=color.red)
+t = 0
 def y(x):
     return b * (1 - (x/a)**2)**0.5
 while True:
